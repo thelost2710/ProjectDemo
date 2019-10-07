@@ -19,7 +19,7 @@
 <h1>Product Page</h1>
 
 <?php
-	echo "Showing all rows from Postgres Database";
+	echo "Showing all rows from Product Database";
 	
 	//Refere to database 
 	$db = parse_url(getenv("DATABASE_URL"));
